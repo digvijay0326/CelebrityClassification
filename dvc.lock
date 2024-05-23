@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/ImageClassifier/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 237c84ff86debf2b6d37ca205b6a0868
+      size: 911
+    - path: src/ImageClassifier/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: c3a89c23d8b53ef5fbe970b0b6e7c185
+      size: 916
+    outs:
+    - path: artifacts/data_ingestion/Celebrity Faces Dataset
+      hash: md5
+      md5: 4ef404f94028e8d3cd28a1202daa2e9e.dir
+      size: 55679713
+      nfiles: 1800
