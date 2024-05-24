@@ -1,7 +1,4 @@
-Celebrity Image Classification complete project
-
-# Chicken-Disease-Classification--Project
-
+# Celebrity Image Classification complete project
 
 ## Workflows
 
